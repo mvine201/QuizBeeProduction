@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // Thêm dòng này
   ],
-  base: '/Quiz-Bee/',
+  base: '/QuizBeeProduction/',
 });
