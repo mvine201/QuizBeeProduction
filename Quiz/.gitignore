@@ -1,0 +1,67 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build / dist
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads (if any)
+uploads/
+
+# Database files (local)
+*.sqlite
+*.db
+
+# Optional: ignore frontend build (if React/Vite)
+frontend/node_modules/
+frontend/dist/
+
+# Optional: ignore backend build
+backend/node_modules/
+
+/* Ignore Xcode user state files and directories */
+*.xcuserstate
+xcuserdata/
